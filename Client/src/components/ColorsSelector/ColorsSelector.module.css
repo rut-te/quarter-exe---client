@@ -1,0 +1,42 @@
+
+.colorsSlector {
+    background-color: rgb(86, 86, 80);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition: opacity 0.3s;
+    margin: 1rem auto 0 auto;
+    width: 80%;
+    border-radius: 5px;
+  }
+  
+  .colorCircle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: gray;
+    margin: 5px;
+  }
+  
+  .colorCircle:hover {
+    transform: scale(1.2);
+  }
+  
+ .red {
+  background-color: #ef4542e5;
+}
+
+.blue {
+  background-color: #4395ece8;
+}
+
+.green {
+  background-color: #46ec46e5;
+}
+
+.yellow {
+  background-color: #e8e834ea;
+}
+
+  
